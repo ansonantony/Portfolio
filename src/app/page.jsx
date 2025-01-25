@@ -14,7 +14,7 @@ const Homepage = () => {
       <div className="h-full flex flex-col lg:flex-row px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48">
         {/* IMAGE CONTAINER */}
         <div className="h-1/2 lg:h-full lg:w-1/2 relative">
-          <Image src="/hero.png" alt="" fill className="object-contain" />
+          <Image src="/herobw.png" alt="" fill className="object-contain" />
         </div>
         {/* TEXT CONTAINER */}
         <div className="h-1/2 lg:h-full lg:w-1/2 flex flex-col gap-8 items-center justify-center">
@@ -31,9 +31,10 @@ const Homepage = () => {
           </p>
           {/* BUTTONS */}
           <div className="w-full flex gap-4">
-            <button className="p-4 rounded-lg ring-1 ring-black bg-black text-white">
-              View My Work
-            </button>
+            <a href="https://drive.google.com/file/d/1ea26JaF6bPk-ENUq_ACH1oZo0dQioNlN/view?usp=sharing" target="_blank">
+            <button  className="p-4 rounded-lg ring-1 ring-black bg-black text-white">
+              Resume
+            </button></a>
             <button className="p-4 rounded-lg ring-1 ring-black">
               Contact Me
             </button>

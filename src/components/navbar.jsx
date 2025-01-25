@@ -77,7 +77,7 @@ const Navbar = () => {
         ))}
       </div>
       {/* LOGO */}
-      <div className="md:hidden lg:flex xl:w-1/3 xl:justify-center">
+      {/* <div className="md:hidden lg:flex xl:w-1/3 xl:justify-center">
         <Link
           href="/"
           className="text-sm bg-black rounded-md p-1 font-semibold flex items-center justify-center"
@@ -87,25 +87,25 @@ const Navbar = () => {
             .dev
           </span>
         </Link>
-      </div>
+      </div> */}
       {/* SOCIAL */}
       <div className="hidden md:flex gap-4 w-1/3">
-        <Link href="/">
+        <Link target="_blank" href="http://github.com/ansonantony">
           <Image src="/github.png" alt="" width={24} height={24} />
         </Link>
-        <Link href="/">
+        {/* <Link href="/">
           <Image src="/dribbble.png" alt="" width={24} height={24} />
-        </Link>
-        <Link href="/">
+        </Link> */}
+        <Link target="_blank" href="https://www.instagram.com/anson_a10/">
           <Image src="/instagram.png" alt="" width={24} height={24} />
         </Link>
-        <Link href="/">
+        {/* <Link href="/">
           <Image src="/facebook.png" alt="" width={24} height={24} />
         </Link>
         <Link href="/">
           <Image src="/pinterest.png" alt="" width={24} height={24} />
-        </Link>
-        <Link href="/">
+        </Link> */}
+        <Link target="_blank" href="https://www.linkedin.com/in/ansonantony-">
           <Image src="/linkedin.png" alt="" width={24} height={24} />
         </Link>
       </div>
