@@ -43,7 +43,7 @@ const AboutPage = () => {
             <h1 className="font-bold text-2xl">BIOGRAPHY</h1>
             {/* BIOGRAPHY DESC */}
             <p className="text-lg">
-            As a passionate computer science student, I'm dedicated to driving innovation in the world of science and technology through software development. With a strong foundation in engineering principles and a deep curiosity for emerging technologies, I thrive on solving complex problems and bringing ideas to life in the digital realm.
+            As a passionate computer science student, I&#39;m dedicated to driving innovation in the world of science and technology through software development. With a strong foundation in engineering principles and a deep curiosity for emerging technologies, I thrive on solving complex problems and bringing ideas to life in the digital realm.
             </p>
             {/* BIOGRAPHY QUOTE */}
             {/* <span className="italic">
